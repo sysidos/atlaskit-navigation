@@ -1,0 +1,39 @@
+{
+  "name": "@atlaskit/atlassian-navigation-00-jira-integration-example",
+  "version": "0.0.0",
+  "description": "A simple example deployed using react-codesandboxer",
+  "main": "index.tsx",
+  "dependencies": {
+    "@atlaskit/drawer": "*",
+    "@atlaskit/logo": "*",
+    "@atlaskit/popup": "^0.2.7",
+    "@emotion/core": "^10.0.9",
+    "react": "^16.8.0",
+    "@atlaskit/menu": "*",
+    "@atlaskit/spinner": "*",
+    "@atlaskit/atlassian-switcher": "*",
+    "@atlaskit/atlassian-switcher-test-utils": "*",
+    "@atlaskit/notification-indicator": "*",
+    "@atlaskit/notification-log-client": "*",
+    "@atlaskit/atlassian-notifications": "*",
+    "lodash.throttle": "^4.1.1",
+    "react-intl": "^2.6.0",
+    "@atlaskit/analytics-next": "*",
+    "@atlaskit/theme": "^9.5.0",
+    "@atlaskit/icon": "^19.1.0",
+    "@atlaskit/tooltip": "^15.2.1",
+    "@atlaskit/button": "^13.3.5",
+    "@atlaskit/analytics-namespaced-context": "^4.1.9",
+    "@atlaskit/css-reset": "latest",
+    "styled-components": "latest",
+    "@atlaskit/atlassian-navigation": "0.9.1",
+    "react-dom": "^16.8.0",
+    "react-scripts-ts": "^2.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
